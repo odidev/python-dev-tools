@@ -5,8 +5,8 @@ matrix:
           dist: bionic
           sudo: true
         - python: 3.9
-          arch: arm64
           dist: bionic
+          arch: arm64-graviton2
           sudo: true
 
 before_install:
